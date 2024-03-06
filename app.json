@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins":[
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
     "name": "skillserve",
     "slug": "skillserve",
     "version": "1.0.0",
@@ -21,7 +29,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+    },
+    "package":"com.pritam_kumar_maity.skillserve"
     },
     "web": {
       "favicon": "./assets/favicon.png"
